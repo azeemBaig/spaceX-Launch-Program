@@ -1,0 +1,75 @@
+.card-list {
+  width: 75vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* @media screen and (max-width: 800px) {
+  .card-list {
+    width: 65vw;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+} */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .card-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .card-list {
+    grid-template-columns: 1fr;
+    margin-top: 15px;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .card-list {
+    grid-template-columns: 1fr;
+    margin-top: 15px;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .card-list {
+    grid-template-columns: 1fr;
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,61 @@
+.btn-style {
+  margin: 7px 28px !important;
+}
+
+.btn-values {
+  margin: 10px 40px !important;
+}
+
+.btn-success {
+  color: black;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.page-style {
+  background-color: #e1e1e1;
+  /* padding: 10px; */
+}
+
+.header-text {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.home-style {
+  display: flex;
+  margin: 10px 10px;
+}
+
+.card-title {
+  margin-bottom: 0rem;
+}
+
+hr {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .home-style {
+    display: inline-block;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home-style {
+    display: inline-block;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home-style {
+    display: inline-block;
+  }
+}
